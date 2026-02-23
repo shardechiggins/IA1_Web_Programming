@@ -13,23 +13,13 @@ img {
 body {
     font-family: var(--font-main);
     margin: 0;
-    background-color: var(--secondary); 
-} 
-
-body {
+    background-color: var(--secondary);
     line-height: 1.8;
 }
 
 #motto p {
     max-width: 750px;
     margin: 0 auto 25px auto;
-}
-
-#motto blockquote {
-    margin-bottom: 25px;
-    font-size: 22px;
-    font-style: italic;
-    color: var(--primary);
 }
 header {
     background-color: var(--primary);
@@ -65,6 +55,10 @@ header {
     transform: scale(0.95);
 }
 
+nav {
+    background-color: white;
+    padding: 10px 0;
+}
 section {
     background-color: #ffffff;
     padding: 40px;
@@ -197,4 +191,5 @@ main {
     transform: translateY(-5px);
 
 }
+
 
