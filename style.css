@@ -1,0 +1,184 @@
+:root {
+    --primary: #1F3A5F;
+    --secondary: #E8ECF2;
+    --accent: #E63946;
+    --font-main: 'Segoe UI', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: var(--font-main);
+    margin: 0;
+    background-color: var(--secondary); 
+} 
+
+body {
+    line-height: 1.8;
+}
+
+#motto p {
+    max-width: 750px;
+    margin: 0 auto 25px auto;
+}
+
+#motto blockquote {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-style: italic;
+    color: var(--primary);
+}
+header {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#main-title {
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+.nav-links a:active {
+    transform: scale(0.95);
+}
+
+section {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    border-left: 4px solid var(--primary);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-4px);
+}
+
+.profile-pic {
+    width: 180px;
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+section img {
+    flex: none;
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 40px; 
+}
+
+#resume-page {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #ffffff;
+}
+
+#resume-page h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.resume-tagline {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.resume-divider {
+    height: 2px;
+    background: var(--primary);
+    margin: 25px 0;
+}
+
+#resume-page h2 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+#resume-page p,
+#resume-page li {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+#resume-page ul {
+    padding-left: 18px;
+}
+
+/* Favorite Cards */
+
+#favorites {
+    margin-top: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
