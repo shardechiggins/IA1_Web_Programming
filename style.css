@@ -174,8 +174,6 @@ main {
     padding-left: 18px;
 }
 
-/* Favorite Cards */
-
 #favorites {
     margin-top: 40px;
 }
@@ -199,3 +197,4 @@ main {
     transform: translateY(-5px);
 
 }
+
