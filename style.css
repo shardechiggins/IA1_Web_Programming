@@ -104,6 +104,22 @@ section img {
         font-size: 16px;
     }
 }
+@media (min-width: 950px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .card-container {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+}
 
 main {
     display: flex;
@@ -181,4 +197,5 @@ main {
 
 .card:hover {
     transform: translateY(-5px);
+
 }
